@@ -338,10 +338,10 @@ public class MainWindow extends JFrame {
 
                     } else
                         textFieldUnswer.setText(Main.steck.back().toString());
-                    System.out.println("***");
+                    /*System.out.println("***");
                     System.out.println("Верх " + Main.steck.back());
                     System.out.println("Низ " + Main.steck.getDown());
-                    System.out.println("***");
+                    System.out.println("***");*/
                 }
             }
 
@@ -377,12 +377,12 @@ public class MainWindow extends JFrame {
 
             private void clearPush(int unswerINT) {
                 Main.steck.clear();
-                System.out.println("Размер" + Main.steck.size());
+                //System.out.println("Размер" + Main.steck.size());
                 Main.steck.push(unswerINT);
-                System.out.println("***");
+                /*System.out.println("***");
                 System.out.println("Верх " + Main.steck.back());
                 System.out.println("Низ " + Main.steck.getDown());
-                System.out.println("***");
+                System.out.println("***");*/
             }
         });
 
