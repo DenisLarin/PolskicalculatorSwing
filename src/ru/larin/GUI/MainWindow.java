@@ -202,7 +202,6 @@ public class MainWindow extends JFrame {
                 }
             }
         });
-
         buttonPlus = new JButton("+");
         buttonPlus.setBounds(450, 150, 50, 50);
         getContentPane().add(buttonPlus);
